@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "stevehandevadmin",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authstevehandevadmin7729d2ca",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

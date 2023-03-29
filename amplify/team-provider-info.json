@@ -1,0 +1,29 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-stevehandevadmin-dev-50330-authRole",
+      "UnauthRoleArn": "arn:aws:iam::164673570568:role/amplify-stevehandevadmin-dev-50330-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::164673570568:role/amplify-stevehandevadmin-dev-50330-authRole",
+      "Region": "us-west-1",
+      "DeploymentBucketName": "amplify-stevehandevadmin-dev-50330-deployment",
+      "UnauthRoleName": "amplify-stevehandevadmin-dev-50330-unauthRole",
+      "StackName": "amplify-stevehandevadmin-dev-50330",
+      "StackId": "arn:aws:cloudformation:us-west-1:164673570568:stack/amplify-stevehandevadmin-dev-50330/39cfbad0-cbce-11ed-9eee-064608a077b3",
+      "AmplifyAppId": "d28cbri168nrvc"
+    },
+    "categories": {
+      "api": {
+        "stevehandevadmin": {}
+      },
+      "auth": {
+        "stevehandevadmin7729d2ca": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d28cbri168nrvc",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}
