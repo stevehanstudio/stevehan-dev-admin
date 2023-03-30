@@ -29,7 +29,7 @@ export const Certificates = () => {
 
 				if (certificateData.data) {
 					// console.log('projectData', projectData.data.listProjects.items)
-					setCertificates(certificateData.data.listCertificates.items)
+					setCertificates(certificateData.data.listCertificates.items.reverse())
 				}
 			} catch (e) {
 				console.log('Error:', e)
@@ -57,7 +57,7 @@ export const Certificates = () => {
 
 		return (
 			<div className='section w-3/4 min-w-max'>
-				<h1 className='section-title border-b'>Certificates</h1>
+				<h1 className='section-title border-b uppercase'>Certificates</h1>
 				{certificates &&
 					certificates.map((certificate, i) => (
 						<div

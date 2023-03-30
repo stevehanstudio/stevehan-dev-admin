@@ -35,9 +35,7 @@ const Login = () => {
 	return (
 		<div className='section'>
 			<p className='max-w-2xl mt-6'>
-				You can navigate and view the projects and certificates,
-				but in order to create, update, and delete, you would need to be
-				logged in and authenticated with admin crendential.
+				This page is meant for me to log in with my admin crendentials.
 			</p>
 			<form className='max-w-2xl mx-auto mt-12 py-14 px-28 rounded-md border-gray-100 border-2 shadow-md'>
 				<div className='text-3xl text-gray-600 font-medium mb-12'>

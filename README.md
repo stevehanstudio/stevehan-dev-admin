@@ -1,6 +1,6 @@
 # SteveHan.dev Admin
 
-This project implements an admin panel for my portfolio website www.stevehan.dev.  The project uses React.js, Typescript, GraphQL, AWS AppSync, and AWS Amplify.  Anyone can view/read the web application, but in order to create, update, and delete, you would need to login with admin credentials.
+This project implements an admin panel to manage the content of my portfolio website www.stevehan.dev.  Tools used in this project include React.js, Typescript, TailwindCSS, GraphQL, AWS AppSync, and AWS Amplify.  Anyone can view/read the web application, but in order to create, update, and delete, you would need to login with admin credentials, which only I have.  [Visit live deployment of project](https://dev.d28cbri168nrvc.amplifyapp.com)
 
 ## Resources:
 
@@ -27,3 +27,8 @@ This project implements an admin panel for my portfolio website www.stevehan.dev
 * [Checking for an empty object in JavaScript](https://stackoverflow.com/questions/679915/how-do-i-test-for-an-empty-javascript-object)
 
 * [File download button in ReactJS](https://stackoverflow.com/questions/55313748/download-file-by-clicking-a-button-in-reactjs)
+
+* [Git push results in warning due to GitHub having changed its remote host key](https://github.com/orgs/community/discussions/50878)
+
+* [Blog from Github changing RSA SSH host key](https://github.blog/2023-03-23-we-updated-our-rsa-ssh-host-key/)
+

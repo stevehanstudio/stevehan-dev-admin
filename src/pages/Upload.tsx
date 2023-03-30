@@ -11,12 +11,6 @@ interface Props {
   componentType: ComponentType
 }
 
-// const convertArrayBufferToNumber = (buffer: ArrayBuffer) =>{
-//   const bytes = new Uint8Array(buffer);
-//   const dv = new DataView(bytes.buffer);
-//   return dv.getUint16(0, true);
-// }
-
 // Convert ArrayBuffer to string
 function ab2str(buf: ArrayBuffer) {
   return String.fromCharCode.apply(null, new Uint16Array(buf) as any);

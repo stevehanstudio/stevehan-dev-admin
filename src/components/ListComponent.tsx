@@ -35,7 +35,7 @@ const ListComponent:React.FC<Props> = ({ componentType }) => {
 
 			if (projectData.data) {
 				// console.log('projectData', projectData.data.listProjects.items)
-				setProjects(projectData.data.listProjects.items)
+				setProjects(projectData.data.listProjects.items.reverse())
 			}
 		} catch (e) {
 			console.log('Error:', e)
@@ -69,7 +69,7 @@ const ListComponent:React.FC<Props> = ({ componentType }) => {
 	return (
 		<div className='section w-3/4 min-w-max'>
 			<Toaster position='top-right' reverseOrder={false} />
-			<h1 className='section-title border-b uppercase'>{componentType}</h1>
+			<h1 className='section-title border-b uppercase'>{componentType}s</h1>
 			{projects &&
 				projects.map((project, i) => (
 					<div

@@ -24,7 +24,7 @@ function App() {
   return (
 		<div className='w-full h-full'>
 			<Header />
-			<div className='flex flex-row mt-14 w-full min-h-[calc(100vh_-_56px)]'>
+			<div className='flex flex-row mt-14 w-full min-h-[calc(100vh_-_56px)] overflow-y-auto'>
 				<Navbar />
 				<Routes location={location} key={location.pathname}>
 					<Route id='home' path='/' element={<Home />} />
@@ -33,14 +33,32 @@ function App() {
 					<Route path='/create-project' element={<CreateProject />} />
 					<Route path='/project/:id' element={<Project />} />
 					<Route path='/edit-project/:id' element={<EditProject />} />
-					<Route path='/download-projects' element={<Download componentType='project' />}/>
-					<Route path='/upload-projects' element={<Upload componentType='project' />}/>
+					<Route
+						path='/download-projects'
+						element={<Download componentType='project' />}
+					/>
+					<Route
+						path='/upload-projects'
+						element={<Upload componentType='project' />}
+					/>
 					<Route path='/certificates' element={<Certificates />} />
-					<Route path='/create-certificate' element={<CreateCertificate />} />
+					<Route
+						path='/create-certificate'
+						element={<CreateCertificate />}
+					/>
 					<Route path='/certificate/:id' element={<Certificate />} />
-					<Route path='/edit-certificate/:id' element={<EditCertificate />} />
-					<Route path='/download-certificates' element={<Download componentType='certificate' />}/>
-					<Route path='/upload-certificates' element={<Upload componentType='certificate' />}/>
+					<Route
+						path='/edit-certificate/:id'
+						element={<EditCertificate />}
+					/>
+					<Route
+						path='/download-certificates'
+						element={<Download componentType='certificate' />}
+					/>
+					<Route
+						path='/upload-certificates'
+						element={<Upload componentType='certificate' />}
+					/>
 					{/* <Route path='/about' element={<About />} /> */}
 					<Route path='*' element={<NotFound />} />
 				</Routes>
